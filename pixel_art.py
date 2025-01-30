@@ -13,13 +13,13 @@ def define_bee():
 
     # specify which pixels are which colour
     image_mat[7:11, 2] = yellow
-    image_mat[6:12, 3:5] = grey
+    image_mat[6:12, 3:5] = black
     image_mat[6:12, 5:7] = yellow
     image_mat[6:12, 7:9] = yellow
-    image_mat[6:12, 9:11] = grey
+    image_mat[6:12, 9:11] = black
     image_mat[6:12, 11:13] = black
     image_mat[7:11, 13] = black
-    image_mat[4:6, 5:11] = grey
+    image_mat[4:6, 5:11] = black
     image_mat[3, 6:10] = grey
     
     return image_mat
