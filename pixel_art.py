@@ -29,7 +29,9 @@ def plot_image(image):
     plt.axis('off')
     plt.imshow(image)
     plt.show()
-    
-    
-bee = define_bee()
-plot_image(bee)
+
+
+if __name__=="__main__":
+
+    bee = define_bee()
+    plot_image(bee)
